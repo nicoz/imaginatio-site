@@ -1,13 +1,6 @@
 class PagesController < ApplicationController
   def index
+    @email = Email.new()
   end
 
-  def contact
-  end
-
-  def team
-  end
-
-  def values
-  end
 end

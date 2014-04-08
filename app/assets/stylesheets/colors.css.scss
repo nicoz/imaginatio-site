@@ -1,0 +1,23 @@
+$main-color: #320098;
+$secondary-color: #4986e7;
+$white: #ffffff;
+
+.head {
+  background: $main-color;
+  color: $white;
+  
+  ul {
+    list-style-type: none;
+    
+    a {
+      text-decoration: none;
+      color: $white;
+    }
+    
+    a:hover {
+      background: $secondary-color;
+    }
+  }
+  
+ 
+}
